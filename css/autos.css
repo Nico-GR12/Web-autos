@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+.nav1 span{
+    color: rgb(219, 24, 24);
+}
+
+.nav1{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    width: 100%;
+    height: 80px;
+}
+
+.enlace{
+    padding: 0.5em 1em;
+    position: absolute; 
+    line-height: 60px;
+}
+
+.dogo{
+    height: 40px;
+}
+
+.nav1 ul{
+    float: right;
+    margin-right: 4em;
+}
+
+.nav1 ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 4em;
+}
+.nav1 ul li a{
+    color: white;
+    padding: 0.5em 1em;
+}
+
+li a .active , li a:hover{
+    border-bottom: 1px red solid;
+    transition: .5s;
+} 
+
+.checkbtn{
+    font-size: 1.5em;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 1em;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4em 2em;
+}
+
+.sub p{
+    background-color: rgb(226, 77, 77);
+    width: 15%;
+    padding: 0.5em 1em;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#seccion1{
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.lux img{
+    border-radius: 50%;
+}
+
+.lux{
+    width: 18%;
+    display: inline-block;
+    padding-top: 4.5em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.lado{
+    display: inline-block;
+    width: 78%; 
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+.lado h2{
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#seccion1 p{
+    text-align: left;;
+    font-size: 1em;
+}
+
+h2{
+    margin-bottom: 3em;
+}
+
+h3{
+    margin-bottom: 0.5em;
+}
+
+h4{
+    margin-bottom: 0.5em;
+}   
+
+#motorv12 h3{
+    text-decoration: underline;
+}
+
+.motor1{
+    width: 20%;
+    margin-right: 2em;
+}
+
+.motor1 img{
+    border-radius: 15px;
+}
+
+.texto1{
+    width: 40%;
+    margin-right: 1em;
+}
+
+.motor1, .texto1{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.texto2{
+    width: 40%;
+    vertical-align: top;
+    margin-top: 1em;
+    margin-top: 2em;
+}
+
+.texto3{
+    width: 48%;
+    margin-right: 5em;
+    margin-top: 2em;
+}
+
+.texto4{
+    width: 30%;
+}
+
+.texto2, .texto3,.texto1, .texto4{
+    display: inline-block;
+}
+
+.motor2{
+    width: 16%;
+    margin-right: 2em;
+}
+
+.dark{
+    width: 20%;
+    padding: 4em 0;
+}
+
+.motor2 img{
+    border-radius: 15px;
+}
+
+.text1, .motor2{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text1{
+    width: 36%;
+    margin-right: 2em;
+}
+
+.text2{
+    width: 40%;
+    margin-top: 2em;
+}
+
+.text3{
+    width: 48%;
+    margin-right: 5em; 
+    margin-top: 2em;
+}
+
+.text4{
+    width: 30%;
+    margin-right: 4em;
+}
+
+.text1, .text4{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text3, .text2{
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    border-top: 2px white solid;
+}
+
+footer i{
+    font-size: 1.8em;
+    margin: 0.5em 0.3em;
+}
+
+footer a{
+    text-decoration: none;
+    color: aqua;
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav1 span{
+        color: rgb(219, 24, 24);
+    }
+
+    #motorv10{
+        padding: 0;
+    }
+    #motorv12{
+        padding: 0;
+    }
+
+    #seccion1{
+        padding: 0;
+    }
+
+    section{
+        width: 80%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .lux{
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .luxa{
+        width: 100%;
+    }
+
+    .motor1{
+        width: 30%;
+    }
+
+    .texto1{
+        width: 60%;
+        text-align: left;
+    }
+
+    .texto2 , .texto3 , .texto4{
+        width: 100%;
+        text-align: left;
+    }
+
+    .motor2{
+        width: 25%;
+        margin-top: 2em;
+    }
+
+    .text4{
+        width: 60%;
+        text-align: left;
+        margin-top: 2em;
+    }
+
+    .text1 , .text3 , .text2{
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:601px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav1 span{
+        color: rgb(219, 24, 24);
+    }
+
+    .enlace{
+        margin-left: 7em;
+    }
+
+    .nav1{
+        position: fixed;
+    }
+
+    .checkbtn{
+        display: block;
+        float: left;
+        margin-left: 0.6em;
+    }
+
+    ul{
+        position: fixed;
+        width: 20%;
+        background: rgb(34, 34, 34);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .nav1 ul li{
+        display: block;
+        margin: 1em 0;
+        line-height: 30px;
+    }
+
+    .nav1 ul li a{
+        font-size: small;
+    }
+
+    li a:hover , li a .active{
+        border-bottom: 1px red solid;
+    }
+
+    #check:checked + .checkbtn ~ ul{
+        left: 0;
+    }
+
+    .nav2{
+        width: 80%;
+    }
+
+    .sub p{
+        width: 30%;
+    }
+
+    section{
+        width: 80%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .lux{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .luxa{
+        width: 100%;
+    }
+
+    .motor1{
+        width: 45%;
+    }
+
+    .texto1{
+        width: 100%;
+        text-align: left;
+    }
+
+    .texto2 , .texto3 , .texto4{
+        width: 100%;
+        text-align: left;
+    }
+
+    .motor2{
+        width: 40%;
+        margin-top: 2em;
+    }
+
+    .text4{
+        width: 100%;
+        text-align: left;
+        margin-top: 2em;
+    }
+
+    .text1 , .text3 , .text2{
+        width: 100%;
+        text-align: left;
+    }
+
+}

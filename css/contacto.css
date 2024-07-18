@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    width: 100%;
+    height: 80px;
+}
+
+.enlace{
+    padding: 0.5em 1em;
+    position: absolute; 
+    line-height: 60px;
+}
+
+.dogo{
+    height: 40px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 1em;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 0.5;
+}
+nav ul li a{
+    color: white;
+    padding: 0.5em 0.8em;
+}
+
+li a .active , li a:hover{
+    border-bottom: 1px red solid;
+    transition: .5s;
+} 
+
+.checkbtn{
+    font-size: 1.5em;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 1em;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+nav span{
+    color: rgb(219, 24, 24);
+}
+
+header{
+    background-image: url('../img/foto1.jpg');
+    background-size: cover;
+    padding: 5em;
+}
+
+.formulario{
+    display: block;
+    border-radius: 15px;
+    border: 3px aqua solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+#contactos .send:hover{
+    background-color: black;
+    color: white;
+}
+
+#contactos p{
+    padding: 0;
+}
+
+.contenedor{
+    width: 60%;
+    background-color: white;
+    padding: 3em;
+    border-radius: 15px;
+}
+
+i{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.icon{
+    width: 38%;
+    display: inline-block;
+    margin: 1em;
+    vertical-align: top;
+}
+
+.col{
+    display: inline-block;
+    width: 46%;
+    vertical-align: top;
+}
+
+h2{
+    margin-bottom: 1em;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    border-top: 2px white solid;
+}
+
+footer i{
+    font-size: 1.8em;
+    margin: 0.5em 0.3em;
+}
+
+footer a{
+    text-decoration: none;
+    color: aqua;
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a{
+        font-size: small;
+    }
+
+    section{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contenedor{
+        width: 80%;
+    }
+
+    .col{
+        width: 80%;
+        text-align: center;
+    }
+
+    .icon{
+        width: 40%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:601px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .enlace{
+        margin-left: 7em;
+    }
+
+    nav{
+        position: fixed;
+    }
+
+    .checkbtn{
+        display: block;
+        float: left;
+        margin-left: 0.6em;
+    }
+
+    ul{
+        position: fixed;
+        width: 20%;
+        background: rgb(34, 34, 34);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 1em 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: small;
+    }
+
+    li a:hover , li a .active{
+        border-bottom: 1px red solid;
+    }
+
+    #check:checked + .checkbtn ~ ul{
+        left: 0;
+    }
+
+    section{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contenedor{
+        width: 80%;
+    }
+
+    .col{
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon{
+        width: 40%;
+        text-align: center;
+    }
+}

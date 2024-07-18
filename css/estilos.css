@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    width: 100%;
+    height: 80px;
+}
+
+.enlace{
+    padding: 0.5em 1em;
+    position: absolute; 
+    line-height: 60px;
+}
+
+.dogo{
+    height: 40px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 1em;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 0.2em;
+}
+nav ul li a{
+    color: white;
+    padding: 0.5em 1em;
+}
+
+li a .active , li a:hover{
+    border-bottom: 1px red solid;
+    transition: .5s;
+} 
+
+.checkbtn{
+    font-size: 1.5em;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 1em;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+nav span{
+    color: rgb(219, 24, 24);
+}
+
+header{
+    background-image: url('../img/fondo.webp');
+    padding: 10em 0 2em 2em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header p{
+    width: 38%;
+    font-size: 3vw;
+    color: white;
+    font-weight: bold;
+}
+
+.lambo{
+    width: 50%;
+}
+
+.porsche{
+    width: 50%;
+}
+
+.ferrari{
+    width: 40%;
+}
+
+.bmw{
+    width: 50%;
+}
+
+.logo{
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 3em;
+}
+
+.contenedor{
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+.left{
+    margin-left: 2.2em;
+}
+
+.margen{
+    margin-top: 0.75em;
+}
+
+.logo p{
+    font-weight: bold;
+}
+
+.mar{
+    margin-top: 1.4em;
+}
+
+img{
+    max-width: 100%;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.705);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.publicidad{
+    margin-top: 3em;
+    color: white;
+    border: 2px red solid;
+    border-radius: 15px;
+    vertical-align: top;
+    padding: 2em 0.5em;
+    width: 27%;
+    display: inline-block;
+    margin: 2em 0.5em;
+    text-align: center;
+}
+
+.publicidad i{
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    border: red 1px solid ;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+.dad{
+    padding: 1.5em 1em;
+    margin: 2em 0 2em 0.5em;
+}
+
+#seccion1{
+    justify-content: center;
+    align-items: center;
+    padding: 3em 2em;
+    margin-bottom: 5em;
+}
+
+#seccion1 div{
+    display: flex;
+    width: 100%;
+    height: 380px;
+}
+
+#seccion1 a{
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .6;
+    transition: .5s ease;
+}
+
+#seccion1 a:hover{
+    width: 10%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#seccion2{
+    text-align: center;
+    color: white;
+}
+
+.autos , img{
+    border-radius: 15px;
+}
+
+.autos{
+    width: 25%;
+    display: inline-block;
+    margin: 2em 1em;
+    text-align: center;
+}
+
+.autos:hover{
+    width: 35%;
+}
+
+.galeria{
+    width: 60%;
+    display: flex;
+    height: 358px;
+    margin: 0 auto;
+}
+
+.modelo{
+    width: 30%;
+}
+
+.hold{
+    margin-bottom: 4em;
+    color: blanchedalmond;
+    text-decoration: underline ;
+}
+
+
+#seccion3 h2{
+    margin-bottom: 4em;
+    color: blanchedalmond;
+    text-decoration: underline ;
+}
+
+#seccion3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 2em;
+}
+
+.galeria img{
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .6;
+    transition: .5s ease;
+}
+
+.galeria img:hover{
+    width: 50%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.lado{
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    margin-bottom: 1em;
+}
+
+.img1{
+    width: 20%;
+    margin-right: 2em;
+}
+
+#seccion4{
+    margin-bottom: 6em;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+#seccion4 h2{
+    margin-bottom: 4em;
+    color: blanchedalmond;
+    text-decoration: underline ;
+    text-align: center;
+}
+
+.boton a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    background: red;
+    color: white;
+    padding: 1em 3em;
+    
+}
+
+.boton a:hover{
+    background-color: rgb(0, 0, 0);
+    border: 1px white solid;
+}
+
+.boton{
+    margin-bottom: 4em;
+    display: inline-block;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+.noti{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    border-top: 2px white solid;
+}
+
+footer i{
+    font-size: 1.8em;
+    margin: 0.5em 0.3em;
+}
+
+footer a{
+    text-decoration: none;
+    color: aqua;
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a{
+        font-size: small;
+    }
+    
+    section{
+        width: 80%;
+        text-align: center;
+    }
+    
+    .publicidad{
+        width: 42%;
+        margin-bottom: 1em;
+    }
+
+    .dad{
+        width: 85%;
+        margin-top: 1em;
+    }
+
+    #seccion1{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 6em;
+        height: 280px;
+        padding: 0;
+        margin-top: 2em;
+    }
+
+    #seccion2{
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    .ride{
+        width: 70%;
+    }
+
+    .hold{
+        margin-bottom: 2em;
+    }
+
+    .autos{
+        width: 65%;
+    }
+
+    .autos:hover{
+        width: 90%;
+    }
+
+    .galeria{
+        width: 80%;
+    }
+
+    .img1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .lado{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:601px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .enlace{
+        margin-left: 7em;
+    }
+
+    nav{
+        position: fixed;
+    }
+
+    .checkbtn{
+        display: block;
+        float: left;
+        margin-left: 0.6em;
+    }
+
+    ul{
+        position: fixed;
+        width: 20%;
+        background: rgb(34, 34, 34);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 1em 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: small;
+    }
+
+    li a:hover , li a .active{
+        border-bottom: 1px red solid;
+    }
+
+    #check:checked + .checkbtn ~ ul{
+        left: 0;
+    }
+
+    header p{
+        font-size: 1.3em;
+        width: 55%;
+    }
+
+    section{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contenedor{
+        text-align: center;
+    }
+
+    .logo{
+        width: 30%;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+
+    .margen{
+        color: black;
+    }
+
+    .publicidad{
+        width: 70%;
+        text-align: center;
+    }
+
+    #seccion1{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 6em;
+        height: 180px;
+        padding: 0;
+        margin-top: 2em;
+    }
+
+    #seccion2{
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+
+    .hold{
+        margin-bottom: 2em;
+    }
+
+    .autos{
+        width: 55%;
+    }
+
+    .autos:hover{
+        width: 70%;
+    }
+
+    #seccion3{
+        padding: 0;
+    }
+
+    #seccion3 h2{
+        margin-bottom: 1em;
+    }
+
+    .galeria{
+        width: 80%;
+    }
+
+    #seccion4{
+        padding: 0;
+        text-align: left;
+    }
+
+    .img1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .lado{
+        width: 100%;
+    }
+    
+}
+
